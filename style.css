@@ -1,0 +1,499 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/************
+First Section
+************/
+
+.first-section {
+    display: flex;
+    width: 1130px;
+    background-color: #161616;
+    margin: 40px auto;
+    color: white;
+    border-radius: 20px;
+}
+
+.half-width-first {
+    padding: 40px 0 40px 100px;
+}
+
+.first-section h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+    line-height: 70px;
+}
+
+.first-section button {
+    background-color: #DD0000;
+    border: 0;
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.first-section img {
+    width: 480px;
+    height: 530px;
+    margin: 20px 40px 0 10px;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+/*************
+Second Section
+*************/
+
+.second-section {
+    display: flex;
+    width: 1130px;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.one-forth {
+    width: 270px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 17px;
+}
+
+.one-forth button {
+    border: none;
+    border-radius: 10px;
+    width: 220px;
+    height: 50px;
+    margin: 12px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.one-forth a {
+    text-decoration: none;
+    color: #161616;
+}
+
+.one-forth button:active {
+    background-color: #DD0000;
+    color: white;
+}
+
+.custom-btn {
+    background-color: #DD0000;
+    color: white;
+}
+
+.three-forth {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 17px;
+}
+
+.three-forth-item {
+    width: 270px;
+    border: 2px solid rgb(241, 239, 239);
+    border-radius: 10px;
+}
+
+.three-forth-item img {
+    width: 270px;
+}
+
+.three-forth-item-details {
+    margin: 10px 15px 15px 15px;
+}
+
+.three-forth-item-details p {
+    font-weight: 600;
+}
+
+.three-forth-item-details button {
+    background-color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: 1px solid black;
+}
+
+.icon-part,
+.time,
+.chat {
+    display: flex;
+    align-items: center;
+}
+
+.icon-part img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.time {
+    margin-right: 20px;
+}
+
+.group-three-forth {
+    width: 845px;
+    text-align: center;
+    font-size: 35px;
+    border: 2px solid rgb(241, 239, 239);
+    border-radius: 10px;
+    background-color: rgb(241, 239, 239);
+}
+
+.hidden-btn {
+    margin-bottom: 80px;
+    text-align: center;
+    display: none;
+}
+
+.red-btn {
+    background-color: #DD0000;
+    border: 0;
+    padding: 15px 35px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+/*****
+Footer
+*****/
+
+footer {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+footer h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.footer-links {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 1130px;
+    margin: 0 auto 30px auto;
+    padding-top: 30px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #B9B9B9;
+    margin: 0px 25px;
+    font-size: 13px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+}
+
+/*********************
+Upcoming Match Section
+*********************/
+
+.match-schedule {
+    border: 2px solid rgb(241, 239, 239);
+    width: 270px;
+    border-radius: 10px;
+    padding: 30px 0;
+}
+
+.country-flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h5 {
+    margin: 15px;
+}
+
+.time-details {
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+/*****************
+Responsive Section
+*****************/
+
+@media (max-width:819px) {
+
+    .first-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .half-width-first {
+        padding: 20px 80px;
+    }
+
+    .first-section h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    small {
+        font-size: 18px;
+        color: lightgrey;
+    }
+
+    .custom-text {
+        display: none;
+    }
+
+    .first-section button {
+        padding: 10px 20px;
+        font-weight: 500;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .first-section img {
+        width: 65%;
+        height: 65%;
+        margin: auto;
+    }
+
+    .second-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        align-items: center;
+    }
+
+    .one-forth {
+        background-color: white;
+    }
+
+    .one-forth button {
+        background-color: white;
+        border: 2px solid rgb(241, 239, 239);
+        font-size: 26px;
+        width: 200px;
+        height: 65px;
+        margin: 8px;
+    }
+
+    .upcoming-match-btn {
+        width: 250px !important;
+    }
+
+    .custom-btn {
+        background-color: #DD0000 !important;
+        color: white !important;
+    }
+
+    .three-forth {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 17px;
+    }
+
+    .three-forth-item {
+        width: 100%;
+    }
+
+    .three-forth-item img {
+        width: 100%;
+    }
+
+    .three-forth-item-details {
+        margin: 20px 25px;
+    }
+
+    .three-forth-item-details button {
+        font-size: 24px;
+        padding: 8px 20px;
+    }
+
+    .three-forth-item-details p {
+        font-size: 24px;
+    }
+
+    .icon-part img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icon-part small {
+        font-size: 24px;
+    }
+
+    footer {
+        width: 100%;
+        padding: 0px;
+    }
+
+    footer h2 {
+        padding-top: 20px;
+    }
+
+    .footer-links {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .footer-links a {
+        margin: 20px 25px;
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width:820px) and (max-width: 1023px) {
+
+    .first-section {
+        width: 100%;
+        margin: 40px auto 0px auto;
+    }
+
+    .first-section h1 {
+        line-height: 50px;
+    }
+
+    small {
+        font-size: 18px;
+        color: lightgrey;
+    }
+
+    .custom-text {
+        display: none;
+    }
+
+    .first-section button {
+        padding: 10px 20px;
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    .half-width-first {
+        padding: 40px 0px 60px 85px;
+    }
+
+    .first-section img {
+        width: 400px;
+        height: 450px;
+        margin: 50px 20px 0px 20px;
+    }
+
+    .second-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .one-forth {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .one-forth button {
+        background-color: white;
+        border: 2px solid rgb(241, 239, 239);
+        font-size: 26px;
+        height: 70px;
+        width: 250px;
+
+    }
+
+    .custom-btn {
+        background-color: #DD0000 !important;
+        color: white !important;
+    }
+
+    .three-forth {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 17px;
+    }
+
+    .three-forth-item {
+        width: 100%;
+    }
+
+    .three-forth-item img {
+        width: 100%;
+    }
+
+    .three-forth-item-details {
+        margin: 20px 25px;
+    }
+
+    .three-forth-item-details button {
+        font-size: 24px;
+        padding: 8px 20px;
+    }
+
+    .three-forth-item-details p {
+        font-size: 24px;
+    }
+
+    .custom-card {
+        display: none;
+    }
+
+    .icon-part img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .icon-part small {
+        font-size: 24px;
+    }
+
+    .hidden-btn {
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+        padding: 0px;
+    }
+
+    footer h2 {
+        padding-top: 80px;
+    }
+
+    .footer-links {
+        width: 85%;
+        margin: 20px auto;
+    }
+
+    .footer-links a {
+        font-size: 20px;
+        margin: 20px 12px;
+    }
+}
